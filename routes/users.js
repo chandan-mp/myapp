@@ -10,7 +10,9 @@ router.get('/', function(req, res, next) {
 router.get('/user', function(req, res, next) {
     res.send(JSON.stringify({
         "name":"Chandan",
-        "Email": "chandan.swain@mobileprogramming"
+        "Email": "chandan.swain@mobileprogramming",
+        "age": 29,
+        "Company": "mobile programming"
     }));
 });
 
